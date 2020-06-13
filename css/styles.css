@@ -1,0 +1,200 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+  body .btn-primary {
+    background-color: white;
+    font-weight: 700;
+    font-size: 10px;
+    color: #242525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border-color: #1b8bf9; }
+  body .row {
+    background: yellow; }
+    body .row.header {
+      padding-top: 50px;
+      background: #0cb3f8; }
+      body .row.header p {
+        color: white;
+        font-weight: 700; }
+      body .row.header .nav-item {
+        color: white;
+        font-weight: 700;
+        margin-right: 15px;
+        font-size: 13px;
+        border-bottom: 3px solid transparent; }
+      body .row.header :hover.nav-item {
+        border-bottom: 3px solid white; }
+    body .row.hero {
+      background: #0cb3f8;
+      padding-left: 3rem; }
+      body .row.hero h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        color: white; }
+      body .row.hero p {
+        font-size: 1.15rem;
+        color: white;
+        padding-bottom: 60px; }
+      body .row.hero img {
+        margin-bottom: -30px; }
+      body .row.hero .downloadbtn {
+        background-color: #0cb3f8;
+        border-color: white;
+        border-style: solid;
+        color: white; }
+      body .row.hero .applelogo {
+        padding-bottom: 34px;
+        padding-right: 15px; }
+      body .row.hero :hover.downloadbtn {
+        background-color: white;
+        border-color: white;
+        color: #242526; }
+      body .row.hero .learnbtn {
+        background-color: #0cb3f8;
+        border-color: #0cb3f8;
+        border-style: none;
+        color: white; }
+      body .row.hero :hover.learnbtn {
+        text-decoration: underline; }
+    body .row.whitestrip {
+      background: white; }
+      body .row.whitestrip .newbtn {
+        margin-left: 3rem;
+        background-color: #1b8bf9;
+        padding: 5px 20px 5px 20px;
+        color: white;
+        box-shadow: 5px 8px 15px #a3b9cf; }
+      body .row.whitestrip .bar-text {
+        margin-left: 3rem;
+        margin-bottom: 0px; }
+    body .row.content {
+      background: #f5f4f4; }
+      body .row.content h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+        color: #242526; }
+      body .row.content p {
+        padding-bottom: 60px;
+        color: #747474; }
+      body .row.content h5 {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: .95rem; }
+      body .row.content h4 {
+        font-weight: 400;
+        font-size: .95rem;
+        padding-bottom: 20px;
+        color: #747474; }
+      body .row.content.contentblock {
+        padding-bottom: 70px; }
+    body .row.pricing {
+      background: #222222; }
+      body .row.pricing.pricecards {
+        padding-bottom: 100px; }
+      body .row.pricing ul {
+        list-style-image: url("/images/checkgreen.png"); }
+      body .row.pricing li {
+        font-weight: 400;
+        font-size: .95rem;
+        color: #242526;
+        line-height: 1.75rem; }
+      body .row.pricing h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+        color: white; }
+      body .row.pricing p.pricesub {
+        padding-bottom: 60px;
+        color: #bcc6d0; }
+      body .row.pricing .price {
+        background: white;
+        border-radius: 10px; }
+        body .row.pricing .price button {
+          margin-top: 25px;
+          margin-bottom: 50px; }
+        body .row.pricing .price h3 {
+          padding-top: 40px;
+          font-weight: 700;
+          font-size: .75rem;
+          color: #242526; }
+        body .row.pricing .price .money {
+          padding-top: 15px;
+          font-weight: 700;
+          font-size: 3rem;
+          color: #242526; }
+        body .row.pricing .price p {
+          font-weight: 400;
+          font-size: .75rem;
+          color: #242526; }
+        body .row.pricing .price.alt {
+          background: #1b8bf9; }
+          body .row.pricing .price.alt h3 {
+            padding-top: 40px;
+            font-weight: 700;
+            font-size: .75rem;
+            color: white; }
+          body .row.pricing .price.alt .money {
+            padding-top: 15px;
+            font-weight: 700;
+            font-size: 3rem;
+            color: white; }
+          body .row.pricing .price.alt ul {
+            list-style-image: url("/images/checkwhite.png"); }
+          body .row.pricing .price.alt li {
+            font-weight: 400;
+            font-size: .95rem;
+            color: white;
+            line-height: 1.75rem; }
+          body .row.pricing .price.alt p {
+            font-weight: 400;
+            font-size: .75rem;
+            color: white; }
+    body .row.subscribe {
+      background-image: url("../images/cliffs.png");
+      padding-bottom: 100px; }
+      body .row.subscribe h2, body .row.subscribe p {
+        color: white; }
+      body .row.subscribe h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px; }
+      body .row.subscribe p {
+        font-weight: 400;
+        font-size: 1rem; }
+      body .row.subscribe input {
+        opacity: 0.25;
+        padding: 5px 200px 6px 10px; }
+        body .row.subscribe input.email {
+          opacity: 1; }
+      body .row.subscribe button.submit {
+        margin-top: 50px;
+        padding: 10px 65px 10px 65px;
+        background-color: white;
+        color: #242525;
+        border-color: white;
+        border-width: 1px;
+        border-radius: 3px; }
+    body .row.footer {
+      background-color: white;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 50px; }
+      body .row.footer .footernav {
+        margin-right: 20px;
+        font-weight: 700;
+        font-size: .65rem;
+        color: #242526; }
+      body .row.footer .social {
+        margin-right: 15px; }
+    body .row.footerblurb {
+      background-color: white;
+      padding: 75px 25px 50px 25px; }
+      body .row.footerblurb p {
+        font-weight: 300;
+        font-size: .65rem; }
+        body .row.footerblurb p.copyright {
+          font-weight: 400; }

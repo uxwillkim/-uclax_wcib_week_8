@@ -1,2 +1,314 @@
 body {
+  font-family: 'Montserrat', sans-serif;
+
+  .btn-primary {
+    background-color: white;
+    font-weight: 700;
+    font-size: 10px;
+    color: #242525;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    border-color: #1b8bf9;
+  }
+
+  .row {
+    background: yellow;
+
+    &.header{
+      padding-top: 50px;
+      background: #0cb3f8;
+
+      p {
+        color: white;
+        font-weight: 700;
+      }
+
+      .nav-item {
+          color: white;
+          font-weight:700;
+          margin-right: 15px;
+          font-size: 13px;
+          border-bottom: 3px solid transparent;
+        }
+
+        :hover.nav-item {
+          border-bottom: 3px solid white;
+          }
+
+    }
+
+    &.hero{
+      background: #0cb3f8;
+      padding-left: 3rem;
+
+      h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        color: white;
+      }
+
+      p {
+        font-size: 1.15rem;
+        color: white;
+        padding-bottom: 60px;
+      }
+
+      img {
+        margin-bottom: -30px;
+      }
+
+      .downloadbtn {
+        background-color: #0cb3f8;
+        border-color: white;
+        border-style: solid;
+        color: white;
+      }
+
+      .applelogo {
+    padding-bottom: 34px;
+    padding-right: 15px;
+  }
+
+      :hover.downloadbtn {
+        background-color: white;
+        border-color: white;
+        color: #242526;
+      }
+
+      .learnbtn {
+        background-color: #0cb3f8;
+        border-color: #0cb3f8;
+        border-style: none;
+        color: white;
+      }
+
+      :hover.learnbtn {
+        text-decoration: underline;
+        }
+    }
+
+    &.whitestrip{
+        background: white;
+
+        .newbtn {
+          margin-left: 3rem;
+          background-color: #1b8bf9;
+          padding: 5px 20px 5px 20px;
+          color: white;
+          box-shadow: 5px 8px 15px #a3b9cf;
+        }
+
+        .bar-text {
+          margin-left: 3rem;
+          margin-bottom: 0px;
+        }
+      }
+
+    &.content {
+      background: #f5f4f4;
+
+      h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+        color: #242526;
+      }
+
+      p {
+        padding-bottom: 60px;
+        color: #747474;
+      }
+
+      h5 {
+        padding-top: 40px;
+        font-weight: 700;
+        font-size: .95rem;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: .95rem;
+        padding-bottom: 20px;
+        color: #747474;
+      }
+
+      &.contentblock {
+        padding-bottom: 70px;
+      }
+    }
+
+    &.pricing {
+
+      background: #222222;
+
+      &.pricecards {
+        padding-bottom: 100px;
+      }
+
+      ul {
+        list-style-image: url('/images/checkgreen.png');
+      }
+
+      li {
+        font-weight: 400;
+        font-size: .95rem;
+        color: #242526;
+        line-height: 1.75rem;
+      }
+
+      h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+        color: white;
+      }
+
+      p.pricesub {
+        padding-bottom: 60px;
+        color: #bcc6d0;
+      }
+
+      .price {
+        background: white;
+        border-radius: 10px;
+
+        button {
+          margin-top: 25px;
+          margin-bottom: 50px;
+        }
+
+        h3 {
+          padding-top: 40px;
+          font-weight: 700;
+          font-size: .75rem;
+          color: #242526;
+        }
+
+        .money {
+          padding-top: 15px;
+          font-weight: 700;
+          font-size: 3rem;
+          color: #242526;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: .75rem;
+          color: #242526;
+        }
+
+        &.alt {
+          background: #1b8bf9;
+
+          h3 {
+            padding-top: 40px;
+            font-weight: 700;
+            font-size: .75rem;
+            color: white;
+          }
+
+          .money {
+            padding-top: 15px;
+            font-weight: 700;
+            font-size: 3rem;
+            color: white;
+          }
+
+          ul {
+            list-style-image: url('/images/checkwhite.png');
+          }
+
+          li {
+            font-weight: 400;
+            font-size: .95rem;
+            color: white;
+            line-height: 1.75rem;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: .75rem;
+            color: white;
+          }
+          }
+        }
+      }
+
+    &.subscribe {
+      background-image: url('../images/cliffs.png');
+      padding-bottom: 100px;
+
+      h2, p {
+        color: white;
+      }
+
+      h2 {
+        padding-top: 70px;
+        font-weight: 700;
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 1rem;
+      }
+
+      input {
+        opacity: 0.25;
+        padding: 5px 200px 6px 10px;
+
+
+
+          &.email {
+            opacity: 1;
+          }
+      }
+
+      button.submit {
+        margin-top: 50px;
+        padding: 10px 65px 10px 65px;
+        background-color: white;
+        color: #242525;
+        border-color: white;
+        border-width: 1px;
+        border-radius: 3px;
+      }
+
+    }
+
+    &.footer {
+      background-color: white;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 50px;
+
+      .footernav {
+        margin-right: 20px;
+        font-weight: 700;
+        font-size: .65rem;
+        color: #242526;
+      }
+
+      .social {
+        margin-right: 15px;
+      }
+    }
+    &.footerblurb {
+      background-color: white;
+      padding: 75px 25px 50px 25px;
+
+      p {
+        font-weight: 300;
+        font-size: .65rem;
+
+        &.copyright {
+          font-weight: 400;
+        }
+      }
+    }
+
+}
 }
